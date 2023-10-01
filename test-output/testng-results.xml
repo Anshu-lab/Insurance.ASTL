@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[addCLient--------Execution Starts]]>
+    </line>
+    <line>
+      <![CDATA[addCLient-----Failed]]>
+    </line>
+    <line>
+      <![CDATA[addnewNominee--------Execution Starts]]>
+    </line>
+    <line>
+      <![CDATA[addnewNominee---------TestScript execution successful]]>
+    </line>
+    <line>
+      <![CDATA[addPayment--------Execution Starts]]>
+    </line>
+    <line>
+      <![CDATA[addPayment---------TestScript execution successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-21T13:13:47 IST" name="Suite" finished-at="2023-09-21T13:14:07 IST" duration-ms="20064">
+    <groups>
+      <group name="regression">
+        <method signature="AddnewClientPOMTest.addCLient()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" name="addCLient" class="com.ASTL.Pomaccess.AddnewClientPOMTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddNomineePOMTest.addnewNominee()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" name="addnewNominee" class="com.ASTL.Pomaccess.AddNomineePOMTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-09-21T13:13:47 IST" name="Test" finished-at="2023-09-21T13:14:07 IST" duration-ms="20064">
+      <class name="com.ASTL.Pomaccess.AddPaymentPOMTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ASTL.Pomaccess.AddPaymentPOMTest@34e9fd99]" started-at="2023-09-21T13:14:01 IST" name="configBC" finished-at="2023-09-21T13:14:03 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ASTL.Pomaccess.AddPaymentPOMTest@34e9fd99]" started-at="2023-09-21T13:14:03 IST" name="configBM" finished-at="2023-09-21T13:14:04 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="addPayment()[pri:0, instance:com.ASTL.Pomaccess.AddPaymentPOMTest@34e9fd99]" started-at="2023-09-21T13:14:04 IST" name="addPayment" finished-at="2023-09-21T13:14:06 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addPayment--------Execution Starts]]>
+            </line>
+            <line>
+              <![CDATA[addPayment---------TestScript execution successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPayment -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ASTL.Pomaccess.AddPaymentPOMTest@34e9fd99]" started-at="2023-09-21T13:14:06 IST" name="configAM" finished-at="2023-09-21T13:14:06 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ASTL.Pomaccess.AddPaymentPOMTest@34e9fd99]" started-at="2023-09-21T13:14:06 IST" name="configAC" finished-at="2023-09-21T13:14:07 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.ASTL.Pomaccess.AddPaymentPOMTest -->
+      <class name="com.ASTL.Pomaccess.AddnewClientPOMTest">
+        <test-method is-config="true" signature="configDB()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:47 IST" name="configDB" finished-at="2023-09-21T13:13:47 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configDB -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:47 IST" name="configBC" finished-at="2023-09-21T13:13:51 IST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:52 IST" name="configBM" finished-at="2023-09-21T13:13:53 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="addCLient()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:53 IST" name="addCLient" finished-at="2023-09-21T13:13:54 IST" duration-ms="1641" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at com.ASTL.Pomaccess.AddnewClientPOMTest.addCLient(AddnewClientPOMTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[addCLient--------Execution Starts]]>
+            </line>
+            <line>
+              <![CDATA[addCLient-----Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCLient -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:55 IST" name="configAM" finished-at="2023-09-21T13:13:55 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:13:55 IST" name="configAC" finished-at="2023-09-21T13:13:55 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ASTL.Pomaccess.AddnewClientPOMTest@7c7a06ec]" started-at="2023-09-21T13:14:08 IST" name="configAS" finished-at="2023-09-21T13:14:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.ASTL.Pomaccess.AddnewClientPOMTest -->
+      <class name="com.ASTL.Pomaccess.AddNomineePOMTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" started-at="2023-09-21T13:13:55 IST" name="configBC" finished-at="2023-09-21T13:13:57 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" started-at="2023-09-21T13:13:57 IST" name="configBM" finished-at="2023-09-21T13:13:58 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="addnewNominee()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" started-at="2023-09-21T13:13:58 IST" name="addnewNominee" finished-at="2023-09-21T13:14:01 IST" duration-ms="2712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[addnewNominee--------Execution Starts]]>
+            </line>
+            <line>
+              <![CDATA[addnewNominee---------TestScript execution successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addnewNominee -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" started-at="2023-09-21T13:14:01 IST" name="configAM" finished-at="2023-09-21T13:14:01 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ASTL.Pomaccess.AddNomineePOMTest@45752059]" started-at="2023-09-21T13:14:01 IST" name="configAC" finished-at="2023-09-21T13:14:01 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.ASTL.Pomaccess.AddNomineePOMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

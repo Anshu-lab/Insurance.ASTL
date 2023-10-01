@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.insurance.ASTL.GenericUtilities.ListenersImp"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.ASTL.Pomaccess.AddnewClientPOMTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configDB"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="addCLient"/>
+        </methods>
+      </class> <!-- com.ASTL.Pomaccess.AddnewClientPOMTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
